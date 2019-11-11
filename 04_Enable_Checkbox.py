@@ -29,7 +29,7 @@ checkbox = driver.find_element_by_xpath("//input[@type='checkbox']")
 checkbox.click()
 
 # Pause the script for 3 sec so you can confirm the check box was selected
-time.sleep(3)
+time.sleep(5)
 
 # Close the browser window
 driver.close()
